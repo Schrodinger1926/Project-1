@@ -76,4 +76,4 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 
 1. A possible scenario would be to create a 2-D histogram of slope-intercept of all the lines detected by Hough Transform. We should see two peaks regions given sufficient bin size. I tried this approach but for some reason I couldn't get through the 2-D histogram
 
-2. Using linear fit approach is not mathematicaly sound as it minimized vertical distance of point to line. Instead it would make more sense to minimize perpendicular distance of points from hypothesis line.`
+2. Using linear fit approach is not mathematicaly sound as it minimized vertical distance of point to line. Instead it would make more sense to minimize perpendicular distance of points from hypothesis line.
