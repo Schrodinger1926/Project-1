@@ -27,14 +27,15 @@ The goals / steps of this project are the following:
 
 My pipeline consisted of 5 steps. First, I converted the images to grayscale, then I .
 
-Steps: 5
+#### Steps: 5
+
 #### Preprocessing
 1. Conversion to gray scale
+   ![alt text][image1]
 
 2. Removing Noise --> Gaussian blur
 
-------- Detect edges -------
-
+#### Detect edges
 3. Canny Edge detection
 
 4. Gets region of interest
@@ -46,14 +47,13 @@ Steps: 5
 5. Ran Hough transform on the masked image to find straight lines in the region of interest
 
 
-------- Extrapolate lines  -------
-
+#### Extrapolate lines
 6. Modified the draw_lines() routine in the following way:
-   a). Assumed the center to be at 50% of the image width  
+   1. Assumed the center to be at 50% of the image width  
    ![alt text][image3]
-   b). Separated detected hough lines end-points, on the basis of whether the mid point of the line lies on left 50% or right 50% of the image, into respective left lane and right lane bucket. 
-   c). Performed a linear fit on the all the points in either in bucket, resulting in a single line.
-   d). This step involves getting line segment end-points, using above line and region of interest boundary, to be drawn.
+   2. Separated detected hough lines end-points, on the basis of whether the mid point of the line lies on left 50% or right 50% of the image, into respective left lane and right lane bucket. 
+   3. Performed a linear fit on the all the points in either in bucket, resulting in a single line.
+   4. This step involves getting line segment end-points, using above line and region of interest boundary, to be drawn.
    ![alt text][image4]
         
 
