@@ -31,7 +31,8 @@ My pipeline consisted of 5 steps. First, I converted the images to grayscale, th
 
 #### Preprocessing
 1. Conversion to gray scale
-   ![alt text][image1]
+
+![alt text][image1]
 
 2. Removing Noise --> Gaussian blur
 
