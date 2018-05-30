@@ -16,9 +16,13 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./examples/grayscale.jpg "Grayscale"
+
 [image2]: ./rnd/double_mask/mask.jpg "Double Mask"
+
 [image3]: ./rnd/line_mid_points/output_solidWhiteCurve.jpg "line separation"
+
 [image4]: ./output_test_images/output_solidWhiteCurve.jpg "line extrapolation"
+
 ---
 
 ### Reflection
